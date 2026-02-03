@@ -1,12 +1,11 @@
 Netflix Content Trends Analysis
 ---
+
 • Project Summary
 
 This project explores Netflix’s content dataset to understand how the platform’s library has evolved over time. The analysis focuses on identifying trends in content type, genre distribution, and country-wise production, with the aim of drawing practical insights from real data.
 
 Rather than treating this as a purely technical exercise, the project approaches the dataset from an analytical perspective—cleaning the data, visualizing patterns, and interpreting what those patterns say about Netflix’s content strategy.
-
----
 
 • Motivation
 
