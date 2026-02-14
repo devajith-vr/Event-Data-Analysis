@@ -1,82 +1,101 @@
-Netflix Content Trends Analysis
+Netflix Dataset Analysis – Content Trends and Insights
 ---
+• Project Description
 
-• Project Summary
 
-This project explores Netflix’s content dataset to understand how the platform’s library has evolved over time. The analysis focuses on identifying trends in content type, genre distribution, and country-wise production, with the aim of drawing practical insights from real data.
+This project focuses on analyzing Netflix’s content dataset to understand how the platform’s content has evolved over time. The goal of the analysis is to identify trends in content type, genre popularity, and country-wise distribution, and to observe how Netflix has expanded its library over the years.
 
-Rather than treating this as a purely technical exercise, the project approaches the dataset from an analytical perspective—cleaning the data, visualizing patterns, and interpreting what those patterns say about Netflix’s content strategy.
+The project emphasizes practical data analysis using Python, with a strong focus on cleaning real-world data, visualizing trends, and drawing meaningful insights from the results.
 
-• Motivation
+• Objectives
 
-Netflix continuously expands its catalog to meet changing viewer preferences. This project was undertaken to examine:
+To analyze the yearly growth of Movies and TV Shows on Netflix
+To identify the most common and popular genres
 
-Whether Netflix is moving more toward Movies or TV Shows
+To study country-wise contribution to Netflix content
 
-Which genres dominate the platform and how they change over time
+To compare Movies and TV Shows across different regions
 
-How content production varies across countries
-
-The goal was to translate raw data into insights that reflect real-world business decisions.
+To gain hands-on experience with Exploratory Data Analysis (EDA)
 
 • Dataset Overview
 
-Total titles analyzed: 7,789
+Total records: 7,789 Netflix titles
 
 Content types: Movies and TV Shows
 
-Release period: 2008 to 2021
+Time period covered: 2008 – 2021
 
-Dataset structure: 11 features, including title, category, country, release date, rating, duration, genre, and description
+Key attributes include:
 
-• Data Preparation and Feature Engineering
+Category (Movie / TV Show)
 
-To ensure reliable analysis, the dataset was carefully prepared:
+Title
 
-Release dates were standardized and the release year was extracted
+Country
 
-Missing values in key columns such as director, cast, country, and rating were addressed
+Release Date
 
-Genre information was simplified by extracting a primary genre for consistent analysis
+Rating
 
-These steps ensured the dataset was clean, structured, and suitable for trend analysis.
+Duration
 
-• Analysis Approach
+Genre information
 
-Exploratory Data Analysis (EDA) was performed using visual techniques to identify patterns and trends:
+Description
 
-Year-wise comparison of Movies and TV Shows to observe content growth
+• Data Preparation
 
-Genre frequency analysis to identify dominant genres
+Before performing the analysis, the dataset was cleaned and prepared to ensure accuracy:
 
-Country-wise comparison of content types to understand regional contributions
+Converted release dates into datetime format
 
-Global visualization of content distribution using a choropleth map
+Extracted the release year for trend analysis
 
-Trend analysis of popular genres across different years
+Handled missing values by replacing them with appropriate placeholders
 
-The focus throughout the analysis was clarity and interpretability.
+Created a Main Genre column to simplify genre-based analysis
+
+These steps helped make the dataset consistent and suitable for analysis.
+
+• Exploratory Data Analysis
+
+The following analyses and visualizations were performed:
+
+Year-wise comparison of Movies vs TV Shows
+
+Identification of Top 10 genres based on frequency
+
+Country-wise comparison of Movies and TV Shows using stacked bar charts
+
+Global content distribution using a choropleth map
+
+Trend analysis of popular genres over time
+
+Each visualization was designed to clearly communicate trends and patterns.
 
 • Key Insights
 
-Movies currently make up the majority of Netflix’s library, while TV Shows have shown consistent growth
+Movies make up the majority of Netflix’s content, but TV Shows have shown steady growth in recent years
 
-The United States and India are the largest contributors to Netflix’s content catalog
+The United States and India are the largest contributors to Netflix’s content library
 
-Certain genres maintain steady popularity across years, indicating long-term audience demand
+Certain genres remain consistently popular across multiple years
 
-Netflix’s content expansion has become increasingly international over time
+Netflix’s international content expansion became more significant after 2015
 
-• Skills Demonstrated
+• Skills and Learning Outcomes
+
+Through this project, I gained practical experience in:
 
 Data cleaning and preprocessing
 
-Exploratory data analysis and visualization
+Exploratory data analysis
 
-Trend identification and interpretation
+Data visualization and interpretation
 
-Use of Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly
+Using Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly
 
 • Conclusion
 
-This project demonstrates how exploratory data analysis can be applied to real-world datasets to extract meaningful insights. By examining Netflix’s content trends across multiple dimensions, the analysis provides a clear understanding of how data can support strategic decision-making in the streaming industry.
+This analysis provides a clear view of how Netflix’s content strategy has evolved over time. By studying trends in content type, genres, and countries, the project demonstrates how data analysis can support understanding of business decisions in the streaming industry.
